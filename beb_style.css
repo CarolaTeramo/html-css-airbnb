@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.sfondo{
+  background-size: cover;
+  width: 100vw;
+  height: 800px;
+  opacity: 0.6;
+  position: relative;
+  border-bottom: 20px solid white;
+  border-left:20px solid white;
+  border-right: 20px solid white;
+}
+
+.taormina{
+  background-image: url('taormina.jpg');
+  border-top: 20px solid white;
+  }
+
+.stromboli{
+  background-image: url('stromboli.jpg');
+}
+
+.messina{
+  background-image: url('messina.jpg');
+}
+
+.citta{
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
